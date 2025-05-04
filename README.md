@@ -1,9 +1,9 @@
 import random
 pet_names = {
-    "dog": ["Bruno", "Max", "Daisy"],
-    "cat": ["Luna", "Kitty", "Simba"],
-    "rabbit": ["Fluffy", "Thumper", "Snowy"],
-    "bird": ["Sky", "Tweety", "Coco"]
+    "dog": ["Basil", "Tango", "ash"],
+    "cat": ["Coco", "Flona", "Lily"],
+    "rabbit": ["Oreo", "Honey", "Snowy"],
+    "bird": ["Benny", "Tweety", "Freddy"]
 }
 def suggest_name(pet_type):
     return random.choice(pet_names[pet_type])
